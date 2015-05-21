@@ -1,1 +1,1 @@
-# AudioPlayer-iOS
+# AudioPlayer for iOS
