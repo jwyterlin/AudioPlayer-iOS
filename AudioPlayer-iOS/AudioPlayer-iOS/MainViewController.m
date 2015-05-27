@@ -8,7 +8,11 @@
 
 #import "MainViewController.h"
 
+#import <AVFoundation/AVFoundation.h>
+
 @interface MainViewController ()
+
+@property(nonatomic,strong) AVAudioPlayer *audioPlayer;
 
 @end
 
