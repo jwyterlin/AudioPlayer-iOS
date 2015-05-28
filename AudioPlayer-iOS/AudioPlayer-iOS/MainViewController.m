@@ -18,14 +18,28 @@
 
 @implementation MainViewController
 
-- (void)viewDidLoad {
+#pragma mark - View Lifecycle
+
+-(void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
+-(void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Private methods
+
+-(void)play {
+    [self.audioPlayer play];
+}
+
+-(void)pause {
+    [self.audioPlayer pause];
+}
+
+-(void)stop {
+    [self.audioPlayer stop];
 }
 
 @end
