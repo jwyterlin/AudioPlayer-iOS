@@ -21,7 +21,11 @@
 #pragma mark - View Lifecycle
 
 -(void)viewDidLoad {
+    
     [super viewDidLoad];
+    
+    [self.audioPlayer prepareToPlay];
+    
 }
 
 -(void)didReceiveMemoryWarning {
