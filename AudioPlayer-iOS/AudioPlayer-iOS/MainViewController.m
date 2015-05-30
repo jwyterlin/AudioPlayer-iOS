@@ -32,6 +32,12 @@
     [super didReceiveMemoryWarning];
 }
 
+#pragma mark - IBAction methods
+
+-(IBAction)play:(id)sender {}
+
+-(IBAction)pause:(id)sender {}
+
 #pragma mark - Private methods
 
 -(void)play {
