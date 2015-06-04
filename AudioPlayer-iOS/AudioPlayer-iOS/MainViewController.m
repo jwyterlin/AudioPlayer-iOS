@@ -24,6 +24,8 @@
     
     [super viewDidLoad];
     
+    self.audioPlayer = [[AVAudioPlayer alloc] init];
+    
     [self.audioPlayer prepareToPlay];
     
 }
